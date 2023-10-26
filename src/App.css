@@ -1,0 +1,59 @@
+.a {
+  font-size: 30px;
+  margin: 10rem 40rem;
+}
+.img {
+  width: 100%;
+  height: 50vh;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.input {
+  margin: 3rem 25rem;
+  padding: 0.5rem 15rem;
+}
+.card {
+  margin-top: 30px;
+}
+.button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border-color: rgb(255, 0, 170);
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 60px;
+}
+.carddetail {
+  width: 70%;
+  height: 20%;
+  margin: 5rem 10rem;
+  text-align: center;
+}
+.image {
+  width: 15%;
+  height: 10%;
+}
+.warning {
+  padding-left: 4rem;
+  margin-left: 60rem;
+  background-color: burlywood;
+  width: 25%;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: cursive;
+}
+article {
+  width: 60%;
+  margin: auto;
+}
+.cart_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 2px solid skyblue;
+  padding-bottom: 5px;
+}

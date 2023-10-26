@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  color: white;
+  background-color: maroon;
+}
+.nav-link {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.home,
+.movies,
+.contact,
+.Icon {
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px;
+  margin: 0, 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.count {
+  background-color: yellow;
+  border-radius: 50%;
+  color: black;
+
+  height: 100%;
+}

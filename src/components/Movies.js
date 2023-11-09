@@ -9,7 +9,7 @@ const Movies = () => {
   const [searched, setSearched] = useState("");
 
   useEffect(() => {
-    fetch("https://apigenerator.dronahq.com/api/HVEHzI06/data")
+    fetch("https://apigenerator.dronahq.com/api/_7mPSitd/data")
       .then((res) => res.json())
       .then((data) => setUser(data))
       .catch((err) => console.log(err));
